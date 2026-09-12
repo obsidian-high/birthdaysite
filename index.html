@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMUUDI // TEEN ERA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Pop Sticker Layer -->
+    <div class="pop-layer" id="popLayer">
+        <!-- Real Photo Cutouts -->
+        <div class="sticker-pop photo-lebron" id="pop-lebron">
+            <img class="player-img" src="https://www.pngall.com/wp-content/uploads/12/Lebron-James-Basketball-Player-PNG-Cutout.png" alt="LeBron James" draggable="false">
+        </div>
+
+        <div class="sticker-pop photo-curry" id="pop-curry">
+            <img class="player-img" src="https://freepngimg.com/save/30024-michael-jordan-photos/600x863" alt="Michael Jordan" draggable="false">
+        </div>
+
+        <div class="sticker-pop photo-kobe" id="pop-kobe">
+            <img class="player-img" src="https://freepngimg.com/save/20554-kobe-bryant-image/1140x2048" alt="Kobe Bryant" draggable="false">
+        </div>
+
+        <!-- Basketball Graphic -->
+        <div class="sticker-pop cutout-ball" id="pop-ball">
+            <svg width="90" height="90" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#ea580c" stroke="#0f172a" stroke-width="5"/>
+                <path d="M5 50 H95 M50 5 V95 M20 15 Q 50 50 20 85 M80 15 Q 50 50 80 85" stroke="#0f172a" stroke-width="4" fill="none"/>
+            </svg>
+        </div>
+        
+        <div class="sticker-pop text-pop pop-1" id="pop-t1">👑 KING HAMUUDI</div>
+        <div class="sticker-pop text-pop pop-2" id="pop-t2">🔥 3-POINT GOD</div>
+        <div class="sticker-pop text-pop pop-3" id="pop-t3">🏀 SPLASH!</div>
+    </div>
+
+    <header class="animate-entry">
+        <div class="header-tag">
+            <span>⚡ TEEN ERA</span>
+            <span>•</span>
+            <span>SEPTEMBER 12TH</span>
+        </div>
+        <h1 class="hero-title">Hamuudi <span>Day</span></h1>
+        <p class="hero-sub">Bucket Getter & Lobby Sweater 🏀🎮</p>
+    </header>
+
+    <div class="wrapper">
+        <div class="bday-card animate-card" style="--card-delay: 0.1s;">
+            <div class="card-header">
+                <span>01 // PLAYER RATING</span>
+                <span>VERIFIED</span>
+            </div>
+            <div class="stats-row">
+                <div class="stat-item">
+                    <div class="stat-val">GOAT</div>
+                    <div class="stat-lbl">Rank</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-val" style="color: var(--brand-blue);">0ms</div>
+                    <div class="stat-lbl">Latency</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-val" style="color: var(--orange-vibe);">+99k</div>
+                    <div class="stat-lbl">Aura</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bday-card animate-card" style="--card-delay: 0.25s;">
+            <div class="card-header">
+                <span>02 // EQUIPPED SKILLS</span>
+            </div>
+            <div class="badge-list">
+                <div class="pill orange">🏀 Basketball (Court General)</div>
+                <div class="pill blue">⚡ Fortnite (Victory Royales)</div>
+                <div class="pill">🎯 Call of Duty (Search & Destroy)</div>
+                <div class="pill blue">🍕 Infinite McDonald Buff</div>
+            </div>
+        </div>
+
+        <div class="bday-card animate-card" style="--card-delay: 0.4s;">
+            <div class="card-header">
+                <span>03 // BIRTHDAY MESSAGE</span>
+            </div>
+            <p class="message">
+                Happy Birthday, <b>Hamuudi</b>! 🎂<br><br>
+                Welcome to your teen era. May every jumper hit nothing but net, your ping stay at 0ms, and your lobbies stay soft all season!Inshallah!
+            </p>
+        </div>
+
+        <button class="btn-launch animate-card" style="--card-delay: 0.55s;" id="launchBtn">
+            🎉 RE-POP & CELEBRATE 🏀
+        </button>
+    </div>
+
+    <!-- Canvas Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
