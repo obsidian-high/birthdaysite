@@ -1,3 +1,9 @@
+// Force the browser to start at the top on load/refresh
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+
 const stickerIds = ['pop-lebron', 'pop-curry', 'pop-kobe', 'pop-ball', 'pop-t1', 'pop-t2', 'pop-t3'];
 
 // 3-Second Confetti Burst Function
@@ -51,6 +57,9 @@ function triggerPops() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Scroll to top when DOM is ready
+    window.scrollTo(0, 0);
+
     const btn = document.getElementById('launchBtn');
     if (btn) btn.addEventListener('click', triggerPops);
 
